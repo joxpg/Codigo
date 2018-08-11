@@ -1,0 +1,134 @@
+body{
+	margin-top: 0;
+	background-color: #e5e5e5;
+	font-family: "Arial", Times, serif;
+}
+header
+{
+		text-align: center;
+    clear: both;
+    display: table;
+		align-items: center;
+		background-color: #1aace3;
+
+
+}
+main{
+	border: 1px solid blue;
+	margin-top: 5px;
+}
+
+footer{
+	margin-top: 5px;
+display:block;
+border: 1px solid blue;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+p{
+	font-size: small;
+	color: #99a;
+}
+a{
+	font-size: x-small;
+	text-decoration: none;
+}
+
+input{
+width: 100%;
+max-width: 200px;
+margin-top: 2px;
+	align-items:center;
+}
+img{
+	width: 100%;
+	align-items:center;
+}
+
+.logos_login_app{
+	display: flex;
+	justify-content: center;
+}
+.formulario_login {
+align-items: center;
+text-align: center;
+}
+
+/*Tamaño Iconos Login*/
+.iconos_app{
+padding-top: 10px;
+padding-left: 10px;
+
+width: 5%;
+height: 5%;
+}
+
+.encabezado{
+	display: flex;
+  justify-content: center;
+}
+.logo_app
+{
+width: 100%;
+	height: 100%;
+
+}
+
+.encabezado
+{
+	width: 100%;
+
+}
+.Logotipo
+{
+	width: 5%;
+
+	float: left;
+
+
+}
+.logo_footer{
+	display: inline-block;
+justify-content: center;
+align-items: center;
+text-align: center;
+max-width: 500px;
+}
+.contact_us{
+align-items: center;
+text-align: center;
+}
+.NameAplication
+{
+		float: left;
+
+}
+
+.button_login
+{
+	display: flex;
+	justify-content: center;
+}
+/*Estilo Botón Link*/
+.button{
+    padding: 2px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+		font-size: small;
+		max-width: 100px;
+		vertical-align: middle;
+  }
+.button:hover{
+	    color: #1883ba;
+	    background-color: #ffffff;
+			border: 2px solid #1883ba;
+			font-size: small;
+}
+
+div
+{
+	border: 0px solid green;
+}
