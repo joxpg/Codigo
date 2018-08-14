@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reporte Ciudadano</title> <! -- Nombre de la pagina />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
+  	<! -- Header de la pagina />
+  	<header class="encabezado">
+      <div >
+        <a class="button" href="login.html"><</a>
+      </div>
+  		<div class="Logotipo"  >
+  			<img class="logo_app" src="img/logo_app.png"  />
+  		</div>
+  		<div class="NameAplication">
+  			<h3 >Reporte Ciudadano</h3>
+  		</div>
+  	</header>
+      <!--Cuerpo de la Pagina-->
+    <main>
+      <!-- Search-->
+      <button class="openBtn" onclick="openSearch()">Reportar Incidencia</i></button>
+        <!-- Lightbox -->
+      <div id="myOverlay" class="overlay">
+        <div>
+        <span  class="closebtn" onclick="closeSearch()" title="Close Overlay">X</span>
+      </div>
+        <div class="overlay-content">
+          <div class="menu_issue">
+          <form action="ligthbox_issue.html">
+              <div class="rows">
+                  <div class="colunm">
+            <img  src="img/icon_basura.png"  />
+            </div>
+              <div class="colunm">
+            <img  src="img/icon_auto.png"  />
+              </div>
+              <div class="colunm">
+            <img  src="img/icon_hueco.png"  />
+              </div>
+              </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    <form action="ligthbox_issue.html">
+    <div class="formulario_login">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15906.895188474153!2d-74.1503673802246!3d4.643278850000009!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1534215928471" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+    </from>
+  </main>
+    <!--Pie de la Pagina-->
+    <footer>
+      <div class="contact_us">
+          <a href="forgot_password.html">Contactenos</a><br/>
+      </div>
+      <div class="logo_footer">
+          <img  src="img/logo_alcaldia_bogota.png"  />
+      </div>
+    </footer>
+<script>
+
+// Open the full screen search box
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+// Close the full screen search box
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+  </body>
+</html>
