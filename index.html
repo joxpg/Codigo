@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Reporte Ciudadano</title> <! -- Nombre de la pagina />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
+  	<! -- Header de la pagina />
+  	<header class="header_principal">
+      <nav class="navegation_user">
+          <div class="logo">
+              <img src="img/street.svg" id="logo_street"/>
+              <h1>Reporte ciudadano</h1>
+          </div>
+          <div class="user">
+              <img src="img/user.svg" />             
+          </div>
+      </nav>
+      <nav class="navegation_menu">
+              <ul>
+                  <li>
+                      <a href="#">Index</a>
+                  </li>
+                  <li>
+                      <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                      <a href="#">More information</a>
+                  </li>
+                  <li>
+                      <a href="#">About of</a>
+                  </li>
+                  <li>
+                      <a href="#">Center</a>
+                  </li>
+              </ul>
+      </nav>
+  	</header>
+      <!--Cuerpo de la Pagina-->
+    <main class="container container_report">
+      <!-- Search-->
+      <!--<button class="openBtn" onclick="openSearch()">Reportar Incidencia</i></button>-->
+        <!-- Lightbox -->
+        <div class="consult_map">
+            <div class="search">
+                <div class="search_box">
+                    <input type="search" id="search_map" placeholder="Buscar reportes"/>
+                </div>
+                <div class="search_icon">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="map_container">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15906.895188474153!2d-74.1503673802246!3d4.643278850000009!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1534215928471" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    <!--<form action="ligthbox_issue.html">
+    <div class="formulario_login">
+        
+      </div>
+
+    </form>-->
+  </main>
+    <!--Pie de la Pagina-->
+<script>
+
+// Open the full screen search box
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+// Close the full screen search box
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+  </body>
+</html>
